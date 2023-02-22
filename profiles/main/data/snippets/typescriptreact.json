@@ -1,0 +1,114 @@
+{
+	"Next Page": {
+		"prefix": "next-page",
+		"body": [
+			"import React from \"react\";",
+			"import type { NextPage } from \"next\";",
+			"",
+			"const ${1:MyPage}: NextPage = () => {",
+			"\treturn (",
+			"\t\t<${2}>",
+			"\t\t\t${0}",
+			"\t\t</${2}>",
+			"\t);",
+			"};",
+			"",
+			"export default ${1:MyPage};",
+			""
+		],
+		"description": "NextJS Page template"
+	},
+	"Next Page with SSR": {
+		"prefix": "next-page-ssr",
+		"body": [
+			"import React from \"react\";",
+			"import type { NextPage, GetServerSideProps } from \"next\";",
+			"",
+			"type ${1:MyPage}Props = {",
+			"\t${2}",
+			"};",
+			"",
+			"const ${1:MyPage}: NextPage<${1:MyPage}Props> = ({ ${4} }) => {",
+			"\treturn (",
+			"\t\t<${5}>",
+			"\t\t\t${0}",
+			"\t\t</${5}>",
+			"\t);",
+			"};",
+			"",
+			"export const getServerSideProps: GetServerSideProps<${1:MyPage}Props> = async (context) => {",
+			"\treturn {",
+			"\t\tprops: {",
+			"\t\t\t${3}",
+			"\t\t},",
+			"\t};",
+			"};",
+			"",
+			"export default ${1:MyPage};",
+			""
+		],
+		"description": "NextJS Page template with SSR"
+	},
+	"React component": {
+		"prefix": "react-component",
+		"body": [
+			"import React, { FC } from \"react\";",
+			"",
+			"const ${1:MyComponent}: FC = () => {",
+			"\treturn (",
+			"\t\t<${2}>",
+			"\t\t\t${0}",
+			"\t\t</${2}>",
+			"\t);",
+			"};",
+			"",
+			"export default ${1:MyComponent};",
+			""
+		],
+		"description": "NextJS Page template with SSR"
+	},
+	"React component with props": {
+		"prefix": "react-component-props",
+		"body": [
+			"import React, { FC } from \"react\";",
+			"",
+			"type ${1:MyComponent}Props = {",
+			"\t${2}",
+			"};",
+			"",
+			"const ${1:MyComponent}: FC<${1:MyComponent}Props> = ({ ${3} }) => {",
+			"\treturn (",
+			"\t\t<${4}>",
+			"\t\t\t${0}",
+			"\t\t</${4}>",
+			"\t);",
+			"};",
+			"",
+			"export default ${1:MyComponent};",
+			""
+		],
+		"description": "NextJS Page template with SSR"
+	},
+	"React component with children": {
+		"prefix": "react-component-children",
+		"body": [
+			"import React, { FC, ReactNode } from \"react\";",
+			"",
+			"type ${1:MyComponent}Props = {",
+			"\tchildren: ReactNode;${2}",
+			"};",
+			"",
+			"const ${1:MyComponent}: FC<${1:MyComponent}Props> = ({ children${3} }) => {",
+			"\treturn (",
+			"\t\t<${4}>",
+			"\t\t\t${0}",
+			"\t\t</${4}>",
+			"\t);",
+			"};",
+			"",
+			"export default ${1:MyComponent};",
+			""
+		],
+		"description": "NextJS Page template with SSR"
+	}
+}

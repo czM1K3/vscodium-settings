@@ -1,0 +1,111 @@
+{
+    "workbench.startupEditor": "none",
+    "sync.autoDownload": true,
+    "sync.autoUpload": true,
+    "sync.forceDownload": true,
+    "sync.quietSync": true,
+    "sync.gist": "7635fe760876015389563fef48f503e7",
+    "editor.wordWrap": "on",
+    "editor.foldingImportsByDefault": true,
+    "files.maxMemoryForLargeFilesMB": 8192,
+    "editor.mouseWheelZoom": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "terminal.integrated.allowChords": false,
+    "editor.largeFileOptimizations": false,
+    "git.autofetch": true,
+    "yaml.schemas": {
+        "file:///toc.schema.json": "/toc\\.yml/i"
+    },
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "workbench.colorTheme": "Community Material Theme Darker High Contrast",
+    "editor.fontFamily": "'Fira Code', 'FiraCode NF', Consolas, 'FiraCode Nerd Font', 'Courier New', monospace",
+    "editor.fontSize": 18,
+    "terminal.external.linuxExec": "alacritty",
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "terminal.integrated.fontFamily": "'Fira Code', 'FiraCode NF', Consolas, 'FiraCode Nerd Font', 'Courier New', monospace",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "todo-tree.general.tags": [
+        "BUG",
+        "HACK",
+        "FIXME",
+        "TODO",
+        "XXX",
+        "[ ]",
+        "[x]",
+        "IDEA"
+    ],
+    "todo-tree.regex.regex": "(%|//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+    "editor.cursorStyle": "line",
+    "editor.insertSpaces": false,
+    "editor.lineNumbers": "on",
+    "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+    "redhat.telemetry.enabled": true,
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    },
+    "editor.inlineSuggest.enabled": true,
+    "terminal.integrated.detectLocale": "on",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.useTabs": true,
+    "prettier.tabWidth": 1,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "security.workspace.trust.banner": "never",
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.persistentSessionReviveProcess": "never",
+    "material-icon-theme.activeIconPack": "react",
+    "material-icon-theme.showWelcomeMessage": false,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "args": [
+                "-noLogo"
+            ]
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "files.eol": "\n",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.fontLigatures": true,
+    "debug.console.fontFamily": "'Fira Code', 'FiraCode NF', Consolas, 'FiraCode Nerd Font', 'Courier New', monospace",
+    "sync.forceUpload": true,
+    "workbench.layoutControl.enabled": false,
+    "go.toolsManagement.autoUpdate": true,
+    "editor.linkedEditing": true,
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "statusbar_command.commands": [
+        {
+            "text": "TypeScript Reload",
+            "priority": 20,
+            "include": "\\.(ts|tsx|js|jsx)$",
+            "command": "typescript.reloadProjects",
+            "color": "aqua"
+        }
+    ],
+    "editor.stickyScroll.enabled": true,
+    "files.autoSave": "onFocusChange",
+}
